@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text">Hello</h1>
+    <button id="change">변경</button>
+
+    <script>
+        const h1 = document.querySelector("text");
+        const button = document.querySelector("#change");
+
+        function changeH1() {
+            h1.textContent
+
+        }
+                            // changeH1() : undefined
+        button.addEventListener("click", changeH1);
+
+
+        /* 변경 버튼을 눌렀을 때,
+            1) h1 태그의 텍스트 -> "Hello, JS"로 변경
+            2) h2 태그의 신청 -> "red"로 변경 
+        */ 
+    </script>
+</html>
