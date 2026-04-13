@@ -1,0 +1,11 @@
+.venv/
+venv/
+*.gguf
+.DS_Store
+__pycache__/
+.venv/
+venv/
+llama/models/
+*.gguf
+.DS_Store
+__pycache__/
