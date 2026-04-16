@@ -1,0 +1,7 @@
+__pycache__
+docker2/worker/models/
+.dockerignore
+*.gguf
+docker2/worker/models/
+docker2/.DS_Store
+.DS_Store
